@@ -1,0 +1,30 @@
+{
+
+  "migration_id": 2017100318432756,
+
+  "models": {
+
+    "Bill": {
+
+      "table": "bills",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "billid", "type": "int", "properties": {}},
+        {"name": "item_number", "type": "int", "properties": {}},
+        {"name": "title", "type": "string", "properties": {}},
+        {"name": "sponsors", "type": "json", "properties": {}},
+        {"name": "text", "type": "string", "properties": {}},
+        {"name": "fiscal_impact", "type": "boolean", "properties": {}},
+        {"name": "status_log", "type": "json", "properties": {}},
+        {"name": "question", "type": "string", "properties": {}},
+        {"name": "date", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}
