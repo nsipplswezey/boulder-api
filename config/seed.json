@@ -21,6 +21,24 @@
 
   "test": {},
 
-  "production": {}
+  "production": {
+    "Bill" : [
+      {
+      	"billId": 161015,
+      	"title": "Appropriation - Real Property Transfer Tax for Funding Community College Fund - FY2016-2017 - $9,000,000",
+      	"sponsors": ["Kim", "Campos, Avalos, Yee, Mar and Peskin"],
+      	"text": "Ordinance appropriating a total of $9,000,000 of Real Propery Transfer Tax in FY2016-2017 for funding the COmmunity College Fund to support students attending the City Callege of San Francisco and placing funds on Controller's Reserve pending the outcome of General Funx tax revenue measures in the November 7, 2016, Election.",
+      	"fiscalImpact": "true",
+      	"statusLog": [{
+      		"date": "12/13/2-016",
+      		"status": "PASSED ON FIRST READING"
+      	}],
+      	"question": "Question: Shall this Ordinance be FINALLY PASSED?",
+      	"date": "2017-01-10",
+      	"source_doc": "bag011017_agenda.pdf",
+      	"uid": "2017-01-10-161015"
+      }	
+	]
+  }
 
 }
