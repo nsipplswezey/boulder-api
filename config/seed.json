@@ -2,12 +2,13 @@
   "development": {
     "Bill" : [
       {
-      	"billId": 161015,
+      	"billid": 161015,
+      	"item_number": 1,
       	"title": "Appropriation - Real Property Transfer Tax for Funding Community College Fund - FY2016-2017 - $9,000,000",
       	"sponsors": ["Kim", "Campos, Avalos, Yee, Mar and Peskin"],
       	"text": "Ordinance appropriating a total of $9,000,000 of Real Propery Transfer Tax in FY2016-2017 for funding the COmmunity College Fund to support students attending the City Callege of San Francisco and placing funds on Controller's Reserve pending the outcome of General Funx tax revenue measures in the November 7, 2016, Election.",
-      	"fiscalImpact": "true",
-      	"statusLog": [{
+      	"fiscal_impact": "true",
+      	"status_log": [{
       		"date": "12/13/2-016",
       		"status": "PASSED ON FIRST READING"
       	}],
@@ -24,7 +25,8 @@
   "production": {
     "Bill" : [
       {
-      	"billId": 161015,
+      	"billid": 161015,
+      	"item_number": 1,
       	"title": "Appropriation - Real Property Transfer Tax for Funding Community College Fund - FY2016-2017 - $9,000,000",
       	"sponsors": ["Kim", "Campos, Avalos, Yee, Mar and Peskin"],
       	"text": "Ordinance appropriating a total of $9,000,000 of Real Propery Transfer Tax in FY2016-2017 for funding the COmmunity College Fund to support students attending the City Callege of San Francisco and placing funds on Controller's Reserve pending the outcome of General Funx tax revenue measures in the November 7, 2016, Election.",
@@ -43,8 +45,8 @@
       	"title": "Zoning, Establishing a Special Harlem River Waterfront District, Bronx (C170311ZMX, C170314PPX and 170315ZSX)",
       	"sponsors": ["Greenfield"],
       	"text": "By the Chair of the Land Use Committee Council Member Greenfield: Pursuant to Rule 11.20(c) of the Council Rules and Section 197-d(b)(3) of the New York City Charter, the Council hereby resolves that the actions of the City Planning Commission on Uniform Land Use Review Procedure application nos. C 170314 PPX and C 170315 ZSX shall be subject to Council review. These items are related to application nos. C 170311 ZMX and N 170314 PPX which are subject to Council review pursuant to Section 197-d(b)(1) of the New York City Charter",
-      	"fiscalImpact": "None",
-      	"statusLog": [{
+      	"fiscal_impact": "None",
+      	"status_log": [{
       		"date": "9/7/2017",
       		"status": "Approved, by Council"
       	}],
