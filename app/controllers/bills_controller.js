@@ -21,7 +21,7 @@ class BillsController extends Nodal.Controller {
 
     Bill.find(this.params.route.id, (err, model) => {
 
-      this.respond(err || model);
+      //this.respond(err || model);
 
     });
 
@@ -31,7 +31,7 @@ class BillsController extends Nodal.Controller {
 
     Bill.create(this.params.body, (err, model) => {
 
-      this.respond(err || model);
+      //this.respond(err || model);
 
     });
 
@@ -41,7 +41,7 @@ class BillsController extends Nodal.Controller {
 
     Bill.update(this.params.route.id, this.params.body, (err, model) => {
 
-      this.respond(err || model);
+      //this.respond(err || model);
 
     });
 
@@ -51,7 +51,7 @@ class BillsController extends Nodal.Controller {
 
     Bill.destroy(this.params.route.id, (err, model) => {
 
-      this.respond(err || model);
+      //this.respond(err || model);
 
     });
 
