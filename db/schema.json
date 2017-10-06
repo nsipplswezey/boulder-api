@@ -10,7 +10,7 @@
 
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
-        {"name": "billid", "type": "int", "properties": {}},
+        {"name": "billid", "type": "string", "properties": {}},
         {"name": "item_number", "type": "int", "properties": {}},
         {"name": "title", "type": "string", "properties": {}},
         {"name": "sponsors", "type": "json", "properties": {}},
