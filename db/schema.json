@@ -19,6 +19,7 @@
         {"name": "status_log", "type": "json", "properties": {}},
         {"name": "question", "type": "string", "properties": {}},
         {"name": "date", "type": "string", "properties": {}},
+        {"name": "uid", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
