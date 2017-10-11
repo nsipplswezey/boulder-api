@@ -12,7 +12,7 @@ class CreateBills extends Nodal.Migration {
   up() {
 
     return [
-      this.createTable("bills", [{"name":"billid","type":"string"},{"name":"item_number","type":"int"},{"name":"title","type":"string"},{"name":"sponsors","type":"json"},{"name":"text","type":"string"},{"name":"fiscal_impact","type":"boolean"},{"name":"status_log","type":"json"},{"name":"question","type":"string"},{"name":"date","type":"string"},{"name":"uid","type":"string"}])
+      this.createTable("bills", [{"name":"bill_id","type":"string"},{"name":"item_number","type":"int"},{"name":"title","type":"string"},{"name":"sponsors","type":"json"},{"name":"text","type":"string"},{"name":"fiscal_impact","type":"boolean"},{"name":"status_log","type":"json"},{"name":"question","type":"string"},{"name":"date","type":"string"},{"name":"uid","type":"string"}])
     ];
 
   }

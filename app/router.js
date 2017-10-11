@@ -30,6 +30,7 @@ const IndexController = Nodal.require('app/controllers/index_controller.js');
 /* generator: begin imports */
 
 const BillsController = Nodal.require('app/controllers/bills_controller.js');
+const DatesController = Nodal.require('app/controllers/dates_controller.js');
 
 /* generator: end imports */
 
@@ -38,6 +39,7 @@ router.route('/').use(IndexController);
 /* generator: begin routes */
 
 router.route('/bills/{id}').use(BillsController);
+router.route('/dates/{id}').use(DatesController);
 
 /* generator: end routes */
 
