@@ -21,7 +21,7 @@ class BillsController extends Nodal.Controller {
 
     Bill.find(this.params.route.id, (err, model) => {
 
-      //this.respond(err || model);
+      this.respond(err || model);
 
     });
 
