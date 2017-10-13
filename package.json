@@ -17,7 +17,8 @@
   "scripts": {
     "test": "mocha ./test/runner.js",
     "start": "node cluster.js",
-    "worker": "node worker.js"
+    "worker": "node worker.js",
+    "deploy": "git add .; git commit; git push heroku master; heroku run nodal db:compose"
   },
   "private": true
 }
